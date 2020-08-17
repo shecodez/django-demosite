@@ -3,6 +3,7 @@
     "--load-plugins=pylint_django",
     "--disable=C0111"
   ],
+  "python.linting.pydocstyleArgs": ["--max-parents=25"],
   "python.linting.pylintEnabled": true,
   "python.linting.mypyEnabled": false,
   "python.linting.enabled": true
